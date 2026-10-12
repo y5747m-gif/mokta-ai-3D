@@ -1,0 +1,14 @@
+{
+  "name": "yawmi-smart-student-planner",
+  "version": "1.0.0",
+  "description": "يومي | YAWMI — المنظم الذكي للطالب: جدول أسبوعي، منبهات، مذاكرة، واجبات، مراجعة متباعدة، عادات، ومساعد تخطيط. تطبيق ويب تقدمي (PWA) يعمل دون إنترنت.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node serve.mjs",
+    "test": "node tests/run-tests.mjs",
+    "icons": "node icons/render-icon.mjs"
+  },
+  "keywords": ["pwa", "planner", "student", "arabic", "alarms", "offline", "rtl"],
+  "license": "MIT"
+}
