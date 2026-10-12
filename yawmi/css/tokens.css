@@ -1,0 +1,175 @@
+/* ============================================================
+ * tokens.css — نظام التصميم (Design Tokens) لتطبيق "يومي | YAWMI"
+ * هوية بحرية داكنة + أسطح دافئة + ألوان وظيفية هادئة
+ * ============================================================ */
+
+:root {
+  /* الهوية */
+  --navy-950: #0B1D3E;
+  --navy-900: #0C1F42;
+  --navy-800: #12294F;
+  --navy-700: #1B3B6F;
+  --navy-600: #24509A;
+  --brand: #1E4FA3;
+  --brand-strong: #16335F;
+  --brand-soft: #E9F0FC;
+  --brand-softer: #F3F7FD;
+
+  /* الأسطح */
+  --bg: #FAF7F2;
+  --bg-grad: linear-gradient(180deg, #F2EFE8 0%, #FAF7F2 240px);
+  --card: #FFFFFF;
+  --card-2: #F4F0E9;
+  --card-hover: #F9F6F0;
+  --line: #E8E2D7;
+  --line-strong: #D8D0C2;
+
+  /* النصوص */
+  --text: #152238;
+  --text-2: #566780;
+  --text-3: #8A97AB;
+  --text-on-brand: #FFFFFF;
+
+  /* ألوان وظيفية */
+  --green: #1B9E6B;
+  --green-soft: #E2F5EC;
+  --blue: #3B82D9;
+  --blue-soft: #E5EEFB;
+  --purple: #7A5AD3;
+  --purple-soft: #EFE9FB;
+  --amber: #D98E12;
+  --amber-soft: #FBEFD8;
+  --orange: #E07B39;
+  --orange-soft: #FBEADF;
+  --red: #D64545;
+  --red-soft: #FBE6E6;
+  --teal: #1F9E96;
+  --teal-soft: #DFF3F1;
+  --indigo: #4C5FD7;
+  --indigo-soft: #E6E9FB;
+  --neutral: #7A8699;
+  --neutral-soft: #EEF0F3;
+
+  /* أنواع الفعاليات */
+  --c-lesson: var(--brand);
+  --c-lesson-soft: var(--brand-soft);
+  --c-study: var(--blue);
+  --c-study-soft: var(--blue-soft);
+  --c-homework: var(--amber);
+  --c-homework-soft: var(--amber-soft);
+  --c-break: var(--neutral);
+  --c-break-soft: var(--neutral-soft);
+  --c-exercise: var(--green);
+  --c-exercise-soft: var(--green-soft);
+  --c-meal: var(--orange);
+  --c-meal-soft: var(--orange-soft);
+  --c-sleep: var(--indigo);
+  --c-sleep-soft: var(--indigo-soft);
+  --c-personal: var(--purple);
+  --c-personal-soft: var(--purple-soft);
+  --c-travel: var(--teal);
+  --c-travel-soft: var(--teal-soft);
+  --c-free: var(--neutral);
+  --c-free-soft: var(--neutral-soft);
+  --c-custom: var(--purple);
+  --c-custom-soft: var(--purple-soft);
+
+  /* الحواف والظلال */
+  --r-xs: 8px;
+  --r-sm: 12px;
+  --r-md: 16px;
+  --r-lg: 20px;
+  --r-xl: 26px;
+  --r-full: 999px;
+  --shadow-sm: 0 2px 8px rgba(18, 41, 79, 0.07);
+  --shadow: 0 8px 24px rgba(18, 41, 79, 0.1);
+  --shadow-lg: 0 16px 40px rgba(11, 29, 62, 0.18);
+  --shadow-nav: 0 -6px 24px rgba(11, 29, 62, 0.1);
+
+  /* الخطوط */
+  --font: "Segoe UI", Tahoma, "Noto Sans Arabic", "Cairo", "IBM Plex Sans Arabic", "Helvetica Neue", Arial, sans-serif;
+  --fs-xs: 0.72rem;
+  --fs-sm: 0.82rem;
+  --fs-md: 0.94rem;
+  --fs-lg: 1.08rem;
+  --fs-xl: 1.3rem;
+  --fs-2xl: 1.65rem;
+
+  /* الأبعاد */
+  --nav-h: 66px;
+  --header-h: 58px;
+  --status-h: 42px;
+  --pad: 16px;
+  --tap: 44px;
+
+  --focus-ring: 0 0 0 3px rgba(30, 79, 163, 0.35);
+}
+
+[data-theme="dark"] {
+  --navy-950: #071227;
+  --navy-900: #0A1B36;
+  --navy-800: #12294F;
+  --brand: #6C9BEF;
+  --brand-strong: #2C4A80;
+  --brand-soft: #1A2F55;
+  --brand-softer: #142743;
+
+  --bg: #0B162B;
+  --bg-grad: linear-gradient(180deg, #0A1B36 0%, #0B162B 240px);
+  --card: #13233F;
+  --card-2: #1A2C4B;
+  --card-hover: #1B2F52;
+  --line: #24395E;
+  --line-strong: #31496F;
+
+  --text: #EAF0FA;
+  --text-2: #A7B6CC;
+  --text-3: #7185A3;
+  --text-on-brand: #0B1D3E;
+
+  --green: #3FC48D;
+  --green-soft: #14382B;
+  --blue: #6BA6F2;
+  --blue-soft: #152B4C;
+  --purple: #A98BF0;
+  --purple-soft: #27214A;
+  --amber: #EBA93E;
+  --amber-soft: #3A2E14;
+  --orange: #F0965C;
+  --orange-soft: #3B271A;
+  --red: #F07070;
+  --red-soft: #40201F;
+  --teal: #48C2B8;
+  --teal-soft: #12332F;
+  --indigo: #8B9AF5;
+  --indigo-soft: #1D2647;
+  --neutral: #93A1B6;
+  --neutral-soft: #222E42;
+
+  --c-lesson-soft: var(--brand-soft);
+  --c-study-soft: var(--blue-soft);
+  --c-homework-soft: var(--amber-soft);
+  --c-break-soft: var(--neutral-soft);
+  --c-exercise-soft: var(--green-soft);
+  --c-meal-soft: var(--orange-soft);
+  --c-sleep-soft: var(--indigo-soft);
+  --c-personal-soft: var(--purple-soft);
+  --c-travel-soft: var(--teal-soft);
+  --c-free-soft: var(--neutral-soft);
+  --c-custom-soft: var(--purple-soft);
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.5);
+  --shadow-nav: 0 -6px 24px rgba(0, 0, 0, 0.4);
+  --focus-ring: 0 0 0 3px rgba(108, 155, 239, 0.4);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
